@@ -11,6 +11,7 @@ public class MyBeanTester {
 	@PostConstruct
 	 public void checkPostConstruct() {
 		System.out.println("Checking custom init method");
+		System.out.println("Checking again");
 	}
 	
 	@PreDestroy
